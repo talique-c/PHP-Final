@@ -1,0 +1,42 @@
+/*-- LAYOUT --*/
+
+/* Header */
+.navbar-brand > img {
+    margin-left: 0.5em;
+}
+
+.nav-link {
+    margin: 1em;
+}
+
+/* Main body */
+body {
+    background-image: url(../img/grey_bg.jpg) !important;
+}
+
+/* Footer */
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-- TEXT --*/
+/* General */
+h1 {
+    font-family: 'Poppins' sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* Footer */
+footer > p {
+    font-size: 1rem;
+}

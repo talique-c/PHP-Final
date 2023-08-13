@@ -1,0 +1,87 @@
+/*-- LAYOUT --*/
+
+/* Header */
+.navbar-brand > img {
+    margin-left: 0.5em;
+}
+
+.nav-link {
+    margin: 1em;
+}
+
+/* Main body */
+body {
+    background-image: url(../img/background.jpg);
+}
+
+/* Footer */
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Homepage */
+.home-container {
+    margin-top: 30vh;
+}
+
+/* About page */
+.about-container {
+    margin-top: 10vh;
+}
+
+/* Buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Forms */
+.form-container {
+    margin: 0 auto;
+    width: 35%;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+form {
+    width: 35%;
+    border: 5px groove #fff;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    padding: 1em;
+}
+
+/*-- TEXT --*/
+/* General */
+h1,
+h2 {
+    font-family: 'Poppins' sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* Buttons */
+.btn > a {
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Footer */
+footer > p {
+    font-size: 1rem;
+}
